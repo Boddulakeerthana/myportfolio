@@ -347,5 +347,20 @@ footer {
   .skills-section,
   .contact-section {
     width: 95%;
+    /* ================= HERO PROFILE IMAGE ================= */
+.hero-profile {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #38bdf8;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 25px rgba(56, 189, 248, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.hero-profile:hover {
+  transform: scale(1.05);
+}
   }
 }
