@@ -55,4 +55,4 @@ Modify animations or effects in script.js
 Live Demo
 
 (Add your hosted portfolio link here — e.g., GitHub Pages, Netlify, Vercel)
-View Live Portfolio →
+View Live Portfolio →.
