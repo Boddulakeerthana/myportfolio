@@ -9,98 +9,122 @@
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to my portfolio</h1>
-        <nav>
-            <a href="#about"><button>About</button></a>
-            <a href="#skills"><button>Skills</button></a>
-            <a href="#projects"><button>Projects</button></a>
-            <a href="#contact"><button>Contact</button></a>
-        </nav>
-        <div class="hero-image">
-            <img src="home.jpg" alt="Professional portfolio banner">
-          </div>
-          <section id="resume" class="resume-section">
-            <h2>My Resume</h2>
-            <p>Want to know more about my journey? Download my resume below:</p>
-            <a href="resume.pdf" download class="resume-btn">Download Resume</a>
-          </section>
-          
-        </section>
-    </header>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h1 class="logo">Sai Keerthana</h1>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <section id="about">
-        <h2>Sai Keerthana Boddula</h2>
-        <img src="img.jpg" alt="A Professional Girl" id="profile-img">
-        <p>I am a B.Tech graduate in Computer Science Engineering 
-        <i>(Artificial Intelligence And Machine Learning)</i>.</p>
-        <p>Recent graduate from <em>Aurora's Technological Research Institute.</em></p>
-        <p>You can know about me in this portfolio.</p>
-    </section>
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h2 class="fade-in">Hi, I'm <span>Keerthana</span></h2>
+    <p class="fade-in-delay">AI & ML Engineer | Certificate in AI Data Analytics</p>
 
-    <section id="skills">
-        <h2>My Skills</h2>
-        <ol>
-            <li>Python Basics</li>
-            <li>MySQL</li>
-            <li>HTML </li>
-            <li>JavaScript Basics</li>
-            <li>CSS</li>
-        </ol>
-    </section>
+    <div class="hero-buttons">
+      <a href="#resume" class="btn">View Resume</a>
+      <a href="resume.pdf" download class="btn-outline">Download Resume</a>
+    </div>
+  </div>
+</section>
 
-    <!-- New Projects Section -->
-    <section id="projects">
-        <h1>My Projects</h1>
-        <table border="1" cellspacing="0" cellpadding="10" style="margin:auto; text-align:center;">
-            <tr>
-                <th>Project Name</th>
-                <th>Description</th>
-                <th>Link</th>
-            </tr>
-            <tr>
-                <td>Portfolio Website</td>
-                <td>A personal website to showcase my profile and skills.</td>
-                <td><a href="https://boddulakeerthana.github.io/myportfolio/">View</a></td>
-            </tr>
-            <tr>
-                <td>AI ML Design Patterns</td>
-                <td>Machine learning project using Django and Python.</td>
-                <td><a href="#">View</a></td>
-            </tr>
-        </table>
-    </section>
+<!-- ABOUT -->
+<section id="about" class="glass-section slide-up">
+  <h2>About Me</h2>
+  <p>
+   I am a Computer Science Engineer specializing in Artificial Intelligence and Machine Learning, driven to build intelligent, scalable, and user-focused applications.
+      With a strong foundation in Python, data analysis, and modern web technologies, 
+      I transform ideas into practical, real-world solutions. I believe in disciplined learning, clean code, and continuous growth—blending innovation with purpose.
+  </p>
+</section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Feel free to contact me:</p>
-        <a class="btn-email"
-   href="mailto:saikeerthanaboddula@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Chunnu%2C%0A%0AI saw your portfolio and wanted to connect.%0A%0AThanks!">
-  Email Me
-</a>
+<!-- SKILLS -->
+<section id="skills" class="skills-section">
+  <h2>My Skills</h2>
 
-<form action="https://formsubmit.co/saikeerthanaboddula@gmail.com" method="POST">
-    <!-- FormSubmit options -->
-    <input type="hidden" name="_subject" value="New message from your portfolio">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-    <!-- After submit redirect (optional) -->
-    <input type="hidden" name="_next" value="https://keerthanaboddula.github.io/portfolio/thanks.html">
-  
-    <label for="Name">Name:</label>
-    <input type="text" id="Name" name="Name" required><br>
-  
-    <label for="Email">Email:</label>
-    <input type="email" id="Email" name="Email" required><br>
-  
-    <label for="Message">Message:</label><br>
-    <textarea id="Message" name="Message" rows="5" required></textarea><br>
-  
-    <button type="submit">Send</button>
+  <div class="skill">
+    <span>Python(Pandas, NumPy)</span>
+    <div class="bar"><div class="fill python"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Machine Learning,AI Data Analytics</span>
+    <div class="bar"><div class="fill ml"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>HTML, CSS, JavaScript</span>
+    <div class="bar"><div class="fill web"></div></div>
+  </div>
+    <div class="skill">
+    <span>MySQL</span>
+    <div class="bar"><div class="fill SQL"></div></div>
+  </div>
+    <div class="skill">
+    <span>Power BI, Excel, Tableau </span>
+    <div class="bar"><div class="fill Data & BI Tools"></div></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects-section">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Machine Learning Based Design Patterns Prediction</h3>
+    <p>Django + Python ML System for design pattern prediction.</p>
+     <div class="tech">
+    <span>Python</span>
+    <span>Django</span>
+    <span>Machine Learning</span>
+    <span>MySQL</span>
+  </div>
+
+  <a href="AI_ML_Project_Report.pdf" class="btn" target="_blank">
+    View Project Report
+  </a>
+  </div>
+
+  <div class="project-card">
+    <h3>Personal Portfolio</h3>
+    <p>Responsive portfolio website using HTML, CSS, JS.</p>
+    <a href="https://boddulakeerthana.github.io/myportfolio/" class="btn">Live Demo</a>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="resume-section">
+  <h2>My Resume</h2>
+
+  <iframe src="resume.pdf" class="resume-frame"></iframe>
+
+  <a href="resume.pdf" download class="btn">Download Resume</a>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+
+  <form action="https://formsubmit.co/yourmail@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
   </form>
-  
-    </section>
+</section>
 
-    <script src="script.js"></script>
+<footer>
+  <p>© 2025 Keerthana | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
+
 </html>
