@@ -6,6 +6,7 @@
     <title>Sai Keerthana | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
@@ -91,6 +92,25 @@
   <a href="ai-ml-design-patterns-report.pdf" class="btn" target="_blank">
     View Project Report
   </a>
+    </div>
+      <div class="project-card">
+  <h3>Multiclass Stress Detection Using Heart Rate Variability</h3>
+  <p>
+    Machine learning-based system to classify multiple stress levels using
+    heart rate variability (HRV) signals. Developed using Python and supervised
+    learning algorithms for accurate stress prediction.
+  </p>
+
+  <div class="tech">
+    <span>Python</span>
+    <span>Machine Learning</span>
+    <span>HRV Analysis</span>
+    <span>Signal Processing</span>
+  </div>
+
+  <a href="stress-detection-hrv-report.pdf" class="btn" target="_blank">
+    View Project Report
+  </a>
 </div>
   <div class="project-card">
     <h3>Personal Portfolio</h3>
@@ -103,28 +123,53 @@
 <section id="resume" class="resume-section">
   <h2>My Resume</h2>
 
-  <iframe src="resume.pdf" class="resume-frame"></iframe>
+  <iframe src="Keerthana ATS resume.pdf" class="resume-frame"></iframe>
 
   <a href="resume.pdf" download class="btn">Download Resume</a>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="contact-section">
+
+    <section id="contact" class="contact-section">
   <h2>Contact Me</h2>
 
-  <form action="https://formsubmit.co/yourmail@gmail.com" method="POST">
+  <p>
+    Feel free to reach out for collaborations, job opportunities, or any queries.
+  </p>
+
+  <!-- DIRECT EMAIL -->
+  <p class="direct-email">
+    📧 Email:
+    <a href="mailto:saikeerthanaboddula@gmail.com">
+      saikeerthanaboddula@gmail.com
+    </a>
+  </p>
+
+  <!-- SOCIAL ICONS -->
+  <div class="social-icons">
+    <a href="https://github.com/Boddulakeerthana" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/boddulakeerthana" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </div>
+
+  <!-- CONTACT FORM -->
+  <form action="https://formsubmit.co/saikeerthanaboddula@gmail.com" method="POST">
+    
+    <input type="hidden" name="_subject" value="New message from Portfolio Website">
+    <input type="hidden" name="_captcha" value="false">
+
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message"></textarea>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
     <button type="submit">Send Message</button>
   </form>
 </section>
 
-<footer>
-  <p>© 2025 Keerthana | All Rights Reserved</p>
-</footer>
-
-<script src="script.js"></script>
 </body>
 
 </html>
