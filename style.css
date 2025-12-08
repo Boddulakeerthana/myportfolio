@@ -349,18 +349,24 @@ footer {
     width: 95%;
     /* ================= HERO PROFILE IMAGE ================= */
 .hero-profile {
-  width: 160px;
-  height: 160px;
+  width: 140px;          /* Smaller professional size */
+  height: 140px;
   border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #38bdf8;
-  margin-bottom: 20px;
-  box-shadow: 0 8px 25px rgba(56, 189, 248, 0.4);
+  object-fit: cover;    /* Crops image properly */
+  border: 3px solid #38bdf8;
+  margin-bottom: 18px;
+  background: #020617;  /* Safety background */
+  box-shadow: 0 6px 18px rgba(56, 189, 248, 0.35);
   transition: transform 0.3s ease;
 }
 
 .hero-profile:hover {
-  transform: scale(1.05);
+  transform: scale(1.04);
+}
+.hero-text img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
   }
 }
