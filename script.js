@@ -86,3 +86,4 @@ buttons.forEach(btn => {
     }, 600);
   });
 });
+document.querySelectorAll(".glass-section").forEach(el => el.classList.add("visible"));
