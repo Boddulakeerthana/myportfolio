@@ -385,4 +385,33 @@ footer {
   flex-direction: column;
   justify-content: space-between;
 }
+.theme-btn {
+  background: none;
+  border: 2px solid #38bdf8;
+  color: #38bdf8;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* LIGHT MODE */
+.light {
+  background: #f8fafc;
+  color: #020617;
+}
+
+.light .navbar {
+  background: rgba(255,255,255,0.9);
+}
+
+.light .project-card,
+.light .glass-section {
+  background: rgba(0,0,0,0.05);
+}
+
+.light .tech span {
+  background: #e5e7eb;
+  color: #020617;
+}
 
