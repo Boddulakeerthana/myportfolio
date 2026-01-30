@@ -46,26 +46,6 @@ window.addEventListener("scroll", () => {
 });
 
 
-// ✅ SKILL BAR ANIMATION
-const skillFills = document.querySelectorAll(".fill");
-
-function animateSkills() {
-  skillFills.forEach(skill => {
-    const skillTop = skill.getBoundingClientRect().top;
-    const windowHeight = window.innerHeight;
-
-    if (skillTop < windowHeight - 100) {
-      skill.style.width =
-        skill.classList.contains("python") ? "90%" :
-        skill.classList.contains("ml") ? "85%" :
-        skill.classList.contains("web") ? "80%" : "75%";
-    }
-  });
-}
-
-window.addEventListener("scroll", animateSkills);
-
-
 // ✅ BUTTON RIPPLE EFFECT
 const buttons = document.querySelectorAll(".btn");
 
