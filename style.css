@@ -454,8 +454,8 @@ footer {
 }
 
 /* SKILLS */
-.light .skills-section,
-.light .skills-section * {
+.light .skill-cards,
+.light .skill-cards * {
   color: #020617 !important;
 }
 
