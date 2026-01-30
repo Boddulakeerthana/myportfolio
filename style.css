@@ -453,10 +453,26 @@ footer {
   background: rgba(0,0,0,0.04) !important;
 }
 
-/* SKILLS */
+/* ===== LIGHT MODE: NEW SKILLS SECTION ===== */
 .light .skills-apply-section,
-.light .skills-apply-section* {
+.light .skills-apply-section * {
   color: #020617 !important;
+}
+
+.light .skill-card {
+  background: rgba(0,0,0,0.04) !important;
+}
+
+.light .skill-card h3 {
+  color: #0284c7 !important;
+}
+
+.light .skill-card li {
+  color: #1e293b !important;
+}
+
+.light .skill-card li::before {
+  color: #0284c7 !important;
 }
 
 /* FOOTER */
