@@ -414,4 +414,37 @@ footer {
   background: #e5e7eb;
   color: #020617;
 }
+/* LIGHT MODE TEXT FIXES */
+.light {
+  background: #f8fafc;
+  color: #020617;
+}
+
+.light .navbar ul li a {
+  color: #020617;
+}
+
+.light .navbar ul li a:hover {
+  color: #38bdf8;
+}
+
+.light .hero-text p {
+  color: #334155;
+}
+
+.light .glass-section p,
+.light .project-card p,
+.light .skills-section span {
+  color: #1e293b;
+}
+
+.light h2,
+.light h3 {
+  color: #020617;
+}
+
+.light footer {
+  background: #e5e7eb;
+  color: #020617;
+}
 
