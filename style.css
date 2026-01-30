@@ -414,37 +414,45 @@ footer {
   background: #e5e7eb;
   color: #020617;
 }
-/* LIGHT MODE TEXT FIXES */
+/* ===== FORCE LIGHT MODE COLORS ===== */
 .light {
-  background: #f8fafc;
-  color: #020617;
+  background: #f8fafc !important;
+  color: #020617 !important;
 }
 
-.light .navbar ul li a {
-  color: #020617;
+/* NAVBAR */
+.light .navbar,
+.light .navbar * {
+  color: #020617 !important;
 }
 
-.light .navbar ul li a:hover {
-  color: #38bdf8;
-}
-
+/* HERO TEXT */
 .light .hero-text p {
-  color: #334155;
+  color: #334155 !important;
 }
 
-.light .glass-section p,
-.light .project-card p,
-.light .skills-section span {
-  color: #1e293b;
+/* ABOUT + GLASS SECTIONS */
+.light .glass-section,
+.light .glass-section * {
+  color: #020617 !important;
+  background: rgba(0,0,0,0.03) !important;
 }
 
-.light h2,
-.light h3 {
-  color: #020617;
+/* PROJECT CARDS */
+.light .project-card,
+.light .project-card * {
+  color: #020617 !important;
+  background: rgba(0,0,0,0.04) !important;
 }
 
+/* SKILLS */
+.light .skills-section,
+.light .skills-section * {
+  color: #020617 !important;
+}
+
+/* FOOTER */
 .light footer {
-  background: #e5e7eb;
-  color: #020617;
+  background: #e5e7eb !important;
+  color: #020617 !important;
 }
-
