@@ -368,11 +368,10 @@ footer {
 }
 
 .project-links {
+  margin-top: auto;
   display: flex;
   gap: 12px;
-  margin-top: auto;
 }
-
 .profile-img {
   width: 180px;
   height: 180px;
