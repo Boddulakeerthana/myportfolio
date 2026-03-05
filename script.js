@@ -68,6 +68,9 @@ buttons.forEach(btn => {
 });
 document.querySelectorAll(".glass-section").forEach(el => el.classList.add("visible"));
 const toggleBtn = document.getElementById("themeToggle");
+/* SET LIGHT MODE BY DEFAULT */
+document.body.classList.add("light");
+toggleBtn.textContent = "🌞";
 
 toggleBtn.addEventListener("click", () => {
   document.body.classList.toggle("light");
@@ -78,3 +81,4 @@ toggleBtn.addEventListener("click", () => {
     toggleBtn.textContent = "🌙";
   }
 });
+
