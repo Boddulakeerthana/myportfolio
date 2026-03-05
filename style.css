@@ -367,8 +367,8 @@ footer {
 .project-card img {
   width: 100%;
   border-radius: 14px;
-  margin-bottom: 12px;
-  transition: 0.3s ease;
+  margin-bottom: 15px;
+  object-fit: cover;
 }
 
 .project-card img:hover {
@@ -376,9 +376,10 @@ footer {
 }
 
 .project-links {
-  margin-top: auto;
+  margin-top: 20px;
   display: flex;
   gap: 12px;
+  flex-wrap: wrap;
 }
 .profile-img {
   width: 180px;
@@ -389,9 +390,14 @@ footer {
   margin: 20px 0;
 }
 .project-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 20px;
+  transition: 0.3s;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 .theme-btn {
   background: none;
@@ -498,4 +504,9 @@ footer {
   left: 0;
   color: #38bdf8;
   font-weight: bold;
+}
+/* FEATURED PROJECT (Retail Sales Prediction) */
+.featured-project {
+  grid-column: span 2;
+  max-width: 100%;
 }
