@@ -1242,8 +1242,8 @@ margin-top:0;
 
 /* Profile Image */
 .hero-img{
-width:200px;
-height:200px;
+width:180px;
+height:180px;
 }
 
 /* Hero text */
@@ -1318,6 +1318,13 @@ width:95%;
 
 .contact-box{
 padding:30px 20px;
+}
+
+}
+@media (max-width:768px){
+
+.hero{
+padding-top:200px;
 }
 
 }
