@@ -1095,3 +1095,116 @@ opacity:0.9;
     font-size:15px;
     font-weight:500;
     }
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width:768px){
+
+/* Navbar */
+.nav-container{
+flex-direction:column;
+gap:10px;
+}
+
+.nav-links{
+flex-wrap:wrap;
+justify-content:center;
+gap:14px;
+}
+
+/* Hero Section */
+.hero{
+padding:110px 20px 60px;
+}
+
+.hero-container{
+flex-direction:column;
+text-align:center;
+gap:40px;
+padding:40px 25px;
+}
+
+.hero-left{
+margin-top:0;
+}
+
+/* Profile Image */
+.hero-img{
+width:200px;
+height:200px;
+}
+
+/* Hero text */
+.hero-right h1{
+font-size:32px;
+white-space:normal;
+}
+
+.typing-text{
+font-size:18px;
+}
+
+.hero-description{
+font-size:15px;
+max-width:100%;
+}
+
+/* Buttons */
+.hero-buttons{
+flex-direction:column;
+align-items:center;
+gap:12px;
+}
+
+/* Social icons */
+.hero-social{
+margin-top:20px;
+}
+
+/* About section */
+.about-content{
+padding:0 10px;
+}
+
+/* Skills grid */
+.skill-grid{
+grid-template-columns:repeat(3,1fr);
+gap:18px;
+}
+
+/* Skill cards */
+.skills-cards{
+grid-template-columns:1fr;
+}
+
+/* Projects */
+.projects-grid{
+grid-template-columns:1fr;
+}
+
+/* Certifications */
+.cert-grid{
+grid-template-columns:1fr;
+}
+
+/* Resume section */
+.resume-box{
+flex-direction:column;
+text-align:center;
+padding:30px;
+gap:25px;
+}
+
+.resume-info{
+text-align:center;
+}
+
+/* Contact */
+.contact-section{
+width:95%;
+}
+
+.contact-box{
+padding:30px 20px;
+}
+
+}
